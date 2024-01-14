@@ -1,0 +1,107 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+body {
+    background: url("https://projectsdeal.co.uk/img/patterns/01.png");
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify !important;
+    font-size: 1.2rem;
+}
+
+.details-row {
+    background-color: #092d50;
+    padding: 10px;
+}
+
+.navbar-row {
+    background-color: #d69f0f;
+}
+
+.custom-nav-link {
+    background-color: #d69f0f;
+}
+
+.custom-nav-link.active {
+    background-color: #f5d142;
+}
+
+.custom-nav-link:hover {
+    background-color: #f5d142;
+}
+
+.btn {
+    background-color: blue;
+    border-radius: 0px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: blue;
+}
+
+.header {
+    padding: 20px 200px;
+}
+
+.details-form {
+    padding: 20px 100px;
+    background-color: #000000B3;
+}
+
+@keyframes flip {
+    from {
+        transform: perspective(400px) rotateY(0deg);
+    }
+    to {
+        transform: perspective(400px) rotateY(360deg);
+    }
+}
+
+.rotating-icon {
+    animation: none;
+}
+
+.rotating-icon:hover {
+    animation: flip 2s linear forwards;
+}
+
+.footer-para,
+.footer-link {
+    font-size: 1rem;
+    text-align: left !important;
+}
+
+.footer-link:hover {
+    color: #337ab7;
+}
+
+.footer-heading {
+    color: #d4a115;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footer-social-icon {
+    font-size: 1rem;
+    padding: 10px;
+    border: 2px solid #d5d5d5;
+    background-color: transparent;
+    color: 'white';
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.footer-social-icon:hover {
+    color: #337ab7;
+    border: 2px solid #337ab7;
+}
